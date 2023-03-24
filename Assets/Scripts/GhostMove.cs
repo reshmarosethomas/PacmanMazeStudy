@@ -9,7 +9,14 @@ public class GhostMove : MonoBehaviour
 
     public float speed = 0.3f;
 
-    // Update is called once per frame
+    GameManager ResetRound;
+
+    private void Start()
+    {
+        // Grab access to GameManager in order to call ResetRound() function
+        ResetRound = GameObject.Find("GameManager").GetComponent<GameManager>();
+    }
+
     void FixedUpdate()
     {
         // Waypoint not reached yet? then move closer
@@ -32,6 +39,10 @@ public class GhostMove : MonoBehaviour
     void OnTriggerEnter2D(Collider2D co)
     {
         if (co.name == "pacman")
+        {
             Destroy(co.gameObject);
+            ResetRound.ResetRound(); //trigger end
+        }
+
     }
 }
