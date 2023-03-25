@@ -41,7 +41,7 @@ public class GhostMove : MonoBehaviour
         if (co.name == "pacman")
         {
             Destroy(co.gameObject);
-            ResetRound.ResetRound(); //trigger end
+            ResetRound.pacmanDead(); //trigger end
         }
 
     }

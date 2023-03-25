@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     public float trialTimer = 0;
     private bool timerIsActive = true;
 
+    bool pacmanEaten = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,10 +42,18 @@ public class GameManager : MonoBehaviour
         GlobalControl.Instance.trials = trials;
     }
 
+
+    public void pacmanDead()
+    {
+        pacmanEaten = true;
+        ResetRound();
+    }
+
+
     public void ResetRound()
     {
 
-        if (Timer.currentTime >= Timer.inverseTime)
+        if ((Timer.currentTime >= Timer.inverseTime) || pacmanEaten)
         {
 
             trialNum ++;
@@ -58,6 +68,7 @@ public class GameManager : MonoBehaviour
             newTrial();
 
             timerIsActive = false;
+            pacmanEaten = false;
 
         }
 

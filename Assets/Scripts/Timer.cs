@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour
     public static float inverseTime = 30;
     public static float currentTime;
     bool timerIsRunning = false;
+    
 
     GameManager ResetRound;
     public TextMeshProUGUI TimeLeft;
@@ -23,6 +24,7 @@ public class Timer : MonoBehaviour
         ResetRound = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
+    
 
     void Update()
     {
