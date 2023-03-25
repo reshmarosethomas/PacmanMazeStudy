@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     private int score = 0;
     public TextMeshProUGUI ScoreTxt;
 
+    float timeTaken = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -70,6 +72,18 @@ public class GameManager : MonoBehaviour
             string tempTrialName = trialName;
 
             //Log all Tinylytics at Round End
+
+            //1. Time Taken for Round
+            if (Timer.currentTime > Timer.inverseTime) timeTaken = Timer.inverseTime;
+            else timeTaken = Timer.currentTime;
+            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "TimeTaken", timeTaken.ToString());
+
+            //2. Log Score
+            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "PacdotsCollected", score.ToString());
+
+            //3. Log Trial End
+            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + trialName + "_" + tempTrialNum.ToString() + "_" + "TrialEndTime", "End " + System.DateTime.Now);
+
 
             Debug.Log("Round Over!");
             SaveGame();
