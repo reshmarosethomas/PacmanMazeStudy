@@ -1994,7 +1994,7 @@ MonoBehaviour:
   - {fileID: 167207851}
   - {fileID: 1557371490}
   - {fileID: 567535997}
-  speed: 0.2
+  speed: 0.15
 --- !u!50 &103802198
 Rigidbody2D:
   serializedVersion: 4
@@ -17215,7 +17215,7 @@ MonoBehaviour:
   - {fileID: 1837207793}
   - {fileID: 1510560678}
   - {fileID: 172474149}
-  speed: 0.3
+  speed: 0.15
 --- !u!1 &766584028
 GameObject:
   m_ObjectHideFlags: 0
@@ -26331,7 +26331,7 @@ MonoBehaviour:
   - {fileID: 1991635431}
   - {fileID: 199879198}
   - {fileID: 413594179}
-  speed: 0.1
+  speed: 0.15
 --- !u!1 &1127645954
 GameObject:
   m_ObjectHideFlags: 0
@@ -41463,7 +41463,7 @@ MonoBehaviour:
   - {fileID: 1503365784}
   - {fileID: 1688759825}
   - {fileID: 1897602470}
-  speed: 0.3
+  speed: 0.15
 --- !u!50 &1833147953
 Rigidbody2D:
   serializedVersion: 4
