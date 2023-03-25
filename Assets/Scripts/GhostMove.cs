@@ -15,7 +15,7 @@ public class GhostMove : MonoBehaviour
     //public GameObject pacman;
     Transform pacman;
 
-    float[] distances = new float[120];
+    string[] distances = new string[120];
     int distIndex = 0;
     Stopwatch watchDist = new();
     float currTime = 0f, prevTime = 0f;
@@ -40,7 +40,7 @@ public class GhostMove : MonoBehaviour
             Vector2 d1 = pacman.position;
             Vector2 d2 = transform.position;
             float dist = Vector2.Distance(d2, d1);
-            distances[distIndex] = dist;
+            distances[distIndex] = dist.ToString();
             distIndex++;
             UnityEngine.Debug.Log(ghostName + ": " + dist.ToString());
         }
