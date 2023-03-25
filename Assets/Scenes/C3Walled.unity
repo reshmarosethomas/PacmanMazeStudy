@@ -3192,6 +3192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148134257}
   - component: {fileID: 148134256}
+  - component: {fileID: 148134258}
   m_Layer: 0
   m_Name: hori_door 2 (3)
   m_TagString: Untagged
@@ -3268,6 +3269,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &148134258
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148134255}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.5074306, y: 3.463427}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9851532, y: 1.2195327}
+  m_EdgeRadius: 0
 --- !u!1 &150283079
 GameObject:
   m_ObjectHideFlags: 0
@@ -4558,6 +4585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 219617573}
   - component: {fileID: 219617572}
+  - component: {fileID: 219617574}
   m_Layer: 0
   m_Name: hori_door 2 (6)
   m_TagString: Untagged
@@ -4634,6 +4662,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &219617574
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219617571}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.495865, y: 3.5732508}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.997161, y: 1.2196698}
+  m_EdgeRadius: 0
 --- !u!1 &224900195
 GameObject:
   m_ObjectHideFlags: 0
@@ -7598,6 +7652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398656702}
   - component: {fileID: 398656701}
+  - component: {fileID: 398656703}
   m_Layer: 0
   m_Name: hori_door 2 (8)
   m_TagString: Untagged
@@ -7674,6 +7729,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &398656703
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398656700}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.4913673, y: 3.517583}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.986084, y: 1.2056742}
+  m_EdgeRadius: 0
 --- !u!1 &401613718
 GameObject:
   m_ObjectHideFlags: 0
@@ -7808,6 +7889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 402543787}
   - component: {fileID: 402543786}
+  - component: {fileID: 402543788}
   m_Layer: 0
   m_Name: hori_door 2 (4)
   m_TagString: Untagged
@@ -7884,6 +7966,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &402543788
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402543785}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.4925594, y: 3.4999561}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.985036, y: 1.2194271}
+  m_EdgeRadius: 0
 --- !u!1 &406533691
 GameObject:
   m_ObjectHideFlags: 0
@@ -7894,6 +8002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 406533693}
   - component: {fileID: 406533692}
+  - component: {fileID: 406533694}
   m_Layer: 0
   m_Name: vert_door (3)
   m_TagString: Untagged
@@ -7970,6 +8079,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &406533694
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406533691}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.560963, y: 4.492507}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2194872, y: 2.9851313}
+  m_EdgeRadius: 0
 --- !u!1 &409652232
 GameObject:
   m_ObjectHideFlags: 0
@@ -8104,6 +8239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410808018}
   - component: {fileID: 410808017}
+  - component: {fileID: 410808019}
   m_Layer: 0
   m_Name: vert_door (4)
   m_TagString: Untagged
@@ -8180,6 +8316,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &410808019
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410808016}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.43902, y: 4.507253}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2195225, y: 2.985489}
+  m_EdgeRadius: 0
 --- !u!1 &414023494
 GameObject:
   m_ObjectHideFlags: 0
@@ -12867,6 +13029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633074921}
   - component: {fileID: 633074920}
+  - component: {fileID: 633074922}
   m_Layer: 0
   m_Name: hori_door 2 (7)
   m_TagString: Untagged
@@ -12943,6 +13106,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &633074922
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633074919}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.492571, y: 3.5000796}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9852297, y: 1.2173376}
+  m_EdgeRadius: 0
 --- !u!1 &656117672
 GameObject:
   m_ObjectHideFlags: 0
@@ -16044,6 +16233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 778008245}
   - component: {fileID: 778008244}
+  - component: {fileID: 778008246}
   m_Layer: 0
   m_Name: vert_door
   m_TagString: Untagged
@@ -16120,6 +16310,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &778008246
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778008243}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.440655, y: 4.5091352}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2554474, y: 2.9872098}
+  m_EdgeRadius: 0
 --- !u!1 &795140530
 GameObject:
   m_ObjectHideFlags: 0
@@ -20384,6 +20600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 973039736}
   - component: {fileID: 973039735}
+  - component: {fileID: 973039737}
   m_Layer: 0
   m_Name: hori_door 2
   m_TagString: Untagged
@@ -20460,6 +20677,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &973039737
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973039734}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.507456, y: 3.4389768}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9850922, y: 1.2194748}
+  m_EdgeRadius: 0
 --- !u!1 &978744154
 GameObject:
   m_ObjectHideFlags: 0
@@ -20979,6 +21222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 996923359}
   - component: {fileID: 996923358}
+  - component: {fileID: 996923360}
   m_Layer: 0
   m_Name: vert_door (6)
   m_TagString: Untagged
@@ -21055,6 +21299,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &996923360
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996923357}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.42679, y: 4.5073237}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2194271, y: 2.9847965}
+  m_EdgeRadius: 0
 --- !u!1 &997345057
 GameObject:
   m_ObjectHideFlags: 0
@@ -22026,6 +22296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045360394}
   - component: {fileID: 1045360393}
+  - component: {fileID: 1045360395}
   m_Layer: 0
   m_Name: vert_door (7)
   m_TagString: Untagged
@@ -22102,6 +22373,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1045360395
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045360392}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.598035, y: 4.4900274}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2190952, y: 2.9899998}
+  m_EdgeRadius: 0
 --- !u!1 &1054756855
 GameObject:
   m_ObjectHideFlags: 0
@@ -25827,6 +26124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215190429}
   - component: {fileID: 1215190428}
+  - component: {fileID: 1215190430}
   m_Layer: 0
   m_Name: hori_door 2 (5)
   m_TagString: Untagged
@@ -25903,6 +26201,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1215190430
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215190427}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.499357, y: 3.5488195}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9963923, y: 1.2195764}
+  m_EdgeRadius: 0
 --- !u!1 &1224665877
 GameObject:
   m_ObjectHideFlags: 0
@@ -25913,6 +26237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1224665879}
   - component: {fileID: 1224665878}
+  - component: {fileID: 1224665880}
   m_Layer: 0
   m_Name: hori_door 2 (1)
   m_TagString: Untagged
@@ -25989,6 +26314,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1224665880
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224665877}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.584899, y: 3.4878268}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.1710472, y: 1.2195215}
+  m_EdgeRadius: 0
 --- !u!1 &1234523907
 GameObject:
   m_ObjectHideFlags: 0
@@ -26123,6 +26474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1237984097}
   - component: {fileID: 1237984096}
+  - component: {fileID: 1237984098}
   m_Layer: 0
   m_Name: hori_door 1
   m_TagString: Untagged
@@ -26199,6 +26551,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1237984098
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237984095}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.493418, y: 3.5003133}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9872787, y: 1.2196188}
+  m_EdgeRadius: 0
 --- !u!1 &1242305607
 GameObject:
   m_ObjectHideFlags: 0
@@ -26333,6 +26711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1255408140}
   - component: {fileID: 1255408139}
+  - component: {fileID: 1255408141}
   m_Layer: 0
   m_Name: vert_door (5)
   m_TagString: Untagged
@@ -26409,6 +26788,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1255408141
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255408138}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.43903, y: 4.5074844}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.219532, y: 2.9850688}
+  m_EdgeRadius: 0
 --- !u!1 &1255909230
 GameObject:
   m_ObjectHideFlags: 0
@@ -29535,6 +29940,7 @@ GameObject:
   - component: {fileID: 1403656356}
   - component: {fileID: 1403656355}
   - component: {fileID: 1403656354}
+  - component: {fileID: 1403656358}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -29625,6 +30031,32 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!61 &1403656358
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403656353}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -393.9646, y: -125.1018}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1, y: 2.2}
+  m_EdgeRadius: 0
 --- !u!1 &1407115871
 GameObject:
   m_ObjectHideFlags: 0
@@ -31601,6 +32033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1499650433}
   - component: {fileID: 1499650432}
+  - component: {fileID: 1499650434}
   m_Layer: 0
   m_Name: vert_door (2)
   m_TagString: Untagged
@@ -31677,6 +32110,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1499650434
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499650431}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.439098, y: 4.507476}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2193756, y: 2.9850483}
+  m_EdgeRadius: 0
 --- !u!1 &1505167626
 GameObject:
   m_ObjectHideFlags: 0
@@ -42858,6 +43317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900945997}
   - component: {fileID: 1900945996}
+  - component: {fileID: 1900945998}
   m_Layer: 0
   m_Name: hori_door 2 (2)
   m_TagString: Untagged
@@ -42934,6 +43394,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1900945998
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900945995}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.4925137, y: 3.4268594}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 29, y: 32}
+    newSize: {x: 29, y: 32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9850216, y: 1.2194624}
+  m_EdgeRadius: 0
 --- !u!1 &1901028017
 GameObject:
   m_ObjectHideFlags: 0
@@ -45161,6 +45647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2022621368}
   - component: {fileID: 2022621367}
+  - component: {fileID: 2022621369}
   m_Layer: 0
   m_Name: vert_door (9)
   m_TagString: Untagged
@@ -45237,6 +45724,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2022621369
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022621366}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.430307, y: 4.4900856}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2207298, y: 2.9932146}
+  m_EdgeRadius: 0
 --- !u!1 &2023679823
 GameObject:
   m_ObjectHideFlags: 0
@@ -46761,6 +47274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2124907658}
   - component: {fileID: 2124907657}
+  - component: {fileID: 2124907659}
   m_Layer: 0
   m_Name: vert_door (8)
   m_TagString: Untagged
@@ -46837,6 +47351,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2124907659
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124907656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.573183, y: 4.5074153}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 32, y: 29}
+    newSize: {x: 2.56, y: 2.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2195396, y: 2.9852228}
+  m_EdgeRadius: 0
 --- !u!1 &2128280312
 GameObject:
   m_ObjectHideFlags: 0
