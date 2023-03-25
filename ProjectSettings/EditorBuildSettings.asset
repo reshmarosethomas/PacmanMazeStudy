@@ -14,4 +14,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interstitial.unity
     guid: 4f72d00ffeecb4dc68da48fcedbb732b
+  - enabled: 1
+    path: Assets/Scenes/Instructions2.unity
+    guid: 790939958b9ef4de19f4a7367855f230
+  - enabled: 1
+    path: Assets/Scenes/Instructions1.unity
+    guid: b8dcc597fd43d4158b16791715471c2e
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: f3c7a98c2f5cf407c9a3bacb732549f0
+  - enabled: 1
+    path: Assets/Scenes/C4.unity
+    guid: 66a435e8e11924013b33b33746de420b
+  - enabled: 1
+    path: Assets/Scenes/C3Walled.unity
+    guid: b63ea9afc249d4f3f87011116c7e8073
+  - enabled: 1
+    path: Assets/Scenes/C2Door.unity
+    guid: bf32ae30a888242f7afd7e95e1058267
+  - enabled: 1
+    path: Assets/Scenes/C1Control.unity
+    guid: bb00d2fc2b04a4f69936a2f055d3c797
   m_configObjects: {}
