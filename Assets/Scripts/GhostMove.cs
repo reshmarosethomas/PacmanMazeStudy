@@ -9,12 +9,12 @@ public class GhostMove : MonoBehaviour
 
     public float speed = 0.3f;
 
-    GameManager ResetRound;
+    GameManager GM;
 
     private void Start()
     {
         // Grab access to GameManager in order to call ResetRound() function
-        ResetRound = GameObject.Find("GameManager").GetComponent<GameManager>();
+        GM = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     void FixedUpdate()
@@ -41,7 +41,7 @@ public class GhostMove : MonoBehaviour
         if (co.name == "pacman")
         {
             Destroy(co.gameObject);
-            ResetRound.pacmanDead(); //trigger end
+            GM.pacmanDead(); //trigger end
         }
 
     }

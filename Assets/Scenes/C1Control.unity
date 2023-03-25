@@ -3460,6 +3460,7 @@ MonoBehaviour:
   trialName: 
   trials: []
   trialTimer: 0
+  ScoreTxt: {fileID: 1391415254}
 --- !u!4 &151229224
 Transform:
   m_ObjectHideFlags: 0
@@ -31916,7 +31917,6 @@ GameObject:
   - component: {fileID: 1391415252}
   - component: {fileID: 1391415255}
   - component: {fileID: 1391415254}
-  - component: {fileID: 1391415253}
   m_Layer: 5
   m_Name: pacdotCount
   m_TagString: Untagged
@@ -31944,20 +31944,6 @@ RectTransform:
   m_AnchoredPosition: {x: 41, y: 179}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1391415253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1391415251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6187a7a75a3a46abbc0ed9ad5917dbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeRemaining: 30
-  TimeLeft: {fileID: 1391415254}
 --- !u!114 &1391415254
 MonoBehaviour:
   m_ObjectHideFlags: 0

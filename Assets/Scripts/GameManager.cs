@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     private bool timerIsActive = true;
 
     bool pacmanEaten = false;
+    private int score = 0;
+    public TextMeshProUGUI ScoreTxt;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +49,12 @@ public class GameManager : MonoBehaviour
     {
         pacmanEaten = true;
         ResetRound();
+    }
+
+    public void addToScore()
+    {
+        score++;
+        ScoreTxt.text = score.ToString();
     }
 
 
