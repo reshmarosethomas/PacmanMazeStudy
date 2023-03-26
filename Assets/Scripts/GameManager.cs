@@ -132,7 +132,7 @@ public class GameManager : MonoBehaviour
             Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "ClydeDistances", clydeDists);
 
             //4. No of Times Pacman passed through a door (in C2, C3)
-            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "DoorOpenNum", open_door_num);
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "DoorOpenNum", door_open_num);
 
 
             //5. ExitedFullScreen?
