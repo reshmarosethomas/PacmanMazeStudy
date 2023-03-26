@@ -1912,6 +1912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 66731237}
+  - component: {fileID: 66731238}
   m_Layer: 0
   m_Name: door10
   m_TagString: Untagged
@@ -1934,6 +1935,19 @@ Transform:
   m_Father: {fileID: 1881388684}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &66731238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66731236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &70922948
 GameObject:
   m_ObjectHideFlags: 0
@@ -8076,6 +8090,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 406331707}
+  - component: {fileID: 406331708}
   m_Layer: 0
   m_Name: door9
   m_TagString: Untagged
@@ -8098,6 +8113,19 @@ Transform:
   m_Father: {fileID: 1179519452}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &406331708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406331706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &408548250
 GameObject:
   m_ObjectHideFlags: 0
@@ -11940,6 +11968,7 @@ MonoBehaviour:
   inkyDists: 
   pinkyDists: 
   clydeDists: 
+  inFullScreen: 0
 --- !u!4 &591117552
 Transform:
   m_ObjectHideFlags: 0
@@ -15649,6 +15678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 700127267}
+  - component: {fileID: 700127268}
   m_Layer: 0
   m_Name: door18
   m_TagString: Untagged
@@ -15671,6 +15701,19 @@ Transform:
   m_Father: {fileID: 1864079557}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &700127268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700127266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &706267061
 GameObject:
   m_ObjectHideFlags: 0
@@ -15959,6 +16002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 723654410}
+  - component: {fileID: 723654411}
   m_Layer: 0
   m_Name: door1
   m_TagString: Untagged
@@ -15981,6 +16025,19 @@ Transform:
   m_Father: {fileID: 1746783065}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &723654411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723654409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &726986566
 GameObject:
   m_ObjectHideFlags: 0
@@ -16548,6 +16605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 761883953}
+  - component: {fileID: 761883954}
   m_Layer: 0
   m_Name: door7
   m_TagString: Untagged
@@ -16570,6 +16628,19 @@ Transform:
   m_Father: {fileID: 1997515107}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &761883954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761883952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &769737215
 GameObject:
   m_ObjectHideFlags: 0
@@ -16914,6 +16985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 780902061}
+  - component: {fileID: 780902062}
   m_Layer: 0
   m_Name: door15
   m_TagString: Untagged
@@ -16936,6 +17008,19 @@ Transform:
   m_Father: {fileID: 1703989082}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &780902062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780902060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &783014567
 GameObject:
   m_ObjectHideFlags: 0
@@ -17658,6 +17743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 817915102}
+  - component: {fileID: 817915103}
   m_Layer: 0
   m_Name: door5
   m_TagString: Untagged
@@ -17680,6 +17766,19 @@ Transform:
   m_Father: {fileID: 1678845232}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &817915103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817915101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &821880393
 GameObject:
   m_ObjectHideFlags: 0
@@ -22686,6 +22785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1020952977}
+  - component: {fileID: 1020952978}
   m_Layer: 0
   m_Name: door3
   m_TagString: Untagged
@@ -22708,6 +22808,19 @@ Transform:
   m_Father: {fileID: 751503708}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1020952978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020952976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1023873287
 GameObject:
   m_ObjectHideFlags: 0
@@ -22717,6 +22830,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1023873288}
+  - component: {fileID: 1023873289}
   m_Layer: 0
   m_Name: door14
   m_TagString: Untagged
@@ -22739,6 +22853,19 @@ Transform:
   m_Father: {fileID: 2029585972}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1023873289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023873287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1029513569
 GameObject:
   m_ObjectHideFlags: 0
@@ -22815,6 +22942,128 @@ MonoBehaviour:
   - {fileID: 2092957107}
   - {fileID: 1384570957}
   speed: 0.15
+  distances:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!50 &1029513572
 Rigidbody2D:
   serializedVersion: 4
@@ -24251,6 +24500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1096355023}
+  - component: {fileID: 1096355024}
   m_Layer: 0
   m_Name: door2
   m_TagString: Untagged
@@ -24273,6 +24523,19 @@ Transform:
   m_Father: {fileID: 773251394}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1096355024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096355022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1104852806
 GameObject:
   m_ObjectHideFlags: 0
@@ -24282,6 +24545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1104852807}
+  - component: {fileID: 1104852808}
   m_Layer: 0
   m_Name: door8
   m_TagString: Untagged
@@ -24304,6 +24568,19 @@ Transform:
   m_Father: {fileID: 1718515993}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1104852808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104852806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1107247111
 GameObject:
   m_ObjectHideFlags: 0
@@ -31173,6 +31450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1347162543}
+  - component: {fileID: 1347162544}
   m_Layer: 0
   m_Name: door4
   m_TagString: Untagged
@@ -31195,6 +31473,19 @@ Transform:
   m_Father: {fileID: 1452356122}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1347162544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347162542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1352150825
 GameObject:
   m_ObjectHideFlags: 0
@@ -33945,6 +34236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1428553008}
+  - component: {fileID: 1428553009}
   m_Layer: 0
   m_Name: door 19
   m_TagString: Untagged
@@ -33967,6 +34259,19 @@ Transform:
   m_Father: {fileID: 1600379782}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1428553009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428553007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1429236739
 GameObject:
   m_ObjectHideFlags: 0
@@ -36300,6 +36605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1516024465}
+  - component: {fileID: 1516024466}
   m_Layer: 0
   m_Name: door16
   m_TagString: Untagged
@@ -36322,6 +36628,19 @@ Transform:
   m_Father: {fileID: 433031609}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1516024466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516024464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1522421683
 GameObject:
   m_ObjectHideFlags: 0
@@ -37353,6 +37672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1563376299}
+  - component: {fileID: 1563376300}
   m_Layer: 0
   m_Name: door6
   m_TagString: Untagged
@@ -37375,6 +37695,19 @@ Transform:
   m_Father: {fileID: 1552198526}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563376300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563376298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1570190038
 GameObject:
   m_ObjectHideFlags: 0
@@ -39467,7 +39800,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -40631,6 +40964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1746198698}
+  - component: {fileID: 1746198699}
   m_Layer: 0
   m_Name: door17
   m_TagString: Untagged
@@ -40653,6 +40987,19 @@ Transform:
   m_Father: {fileID: 665320137}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746198699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746198697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1746783063
 GameObject:
   m_ObjectHideFlags: 0
@@ -41214,6 +41561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1767339734}
+  - component: {fileID: 1767339735}
   m_Layer: 0
   m_Name: door20
   m_TagString: Untagged
@@ -41236,6 +41584,19 @@ Transform:
   m_Father: {fileID: 468636479}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1767339735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767339733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1772343366
 GameObject:
   m_ObjectHideFlags: 0
@@ -43026,6 +43387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1885620740}
+  - component: {fileID: 1885620741}
   m_Layer: 0
   m_Name: door12
   m_TagString: Untagged
@@ -43048,6 +43410,19 @@ Transform:
   m_Father: {fileID: 1577313802}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1885620741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885620739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &1885873106
 GameObject:
   m_ObjectHideFlags: 0
@@ -43924,6 +44299,128 @@ MonoBehaviour:
   - {fileID: 634090997}
   - {fileID: 253116698}
   speed: 0.15
+  distances:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!50 &1926999009
 Rigidbody2D:
   serializedVersion: 4
@@ -45784,6 +46281,128 @@ MonoBehaviour:
   - {fileID: 1674691671}
   - {fileID: 1851034277}
   speed: 0.15
+  distances:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!50 &2000558393
 Rigidbody2D:
   serializedVersion: 4
@@ -46888,6 +47507,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2076093547}
+  - component: {fileID: 2076093548}
   m_Layer: 0
   m_Name: door13
   m_TagString: Untagged
@@ -46910,6 +47530,19 @@ Transform:
   m_Father: {fileID: 666069208}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2076093548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076093546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensorStrength: 3
 --- !u!1 &2081539562
 GameObject:
   m_ObjectHideFlags: 0
@@ -47386,6 +48019,128 @@ MonoBehaviour:
   - {fileID: 816097638}
   - {fileID: 1583064762}
   speed: 0.15
+  distances:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!50 &2107451352
 Rigidbody2D:
   serializedVersion: 4
