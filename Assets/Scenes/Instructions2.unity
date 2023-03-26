@@ -172,20 +172,16 @@ MonoBehaviour:
   trials:
   - C1Control
   - C2Door
-  - C3Walled
-  - C4
+  - C3DoorOpens
   - C1Control
   - C2Door
-  - C3Walled
-  - C4
+  - C3DoorOpens
   - C1Control
   - C2Door
-  - C3Walled
-  - C4
+  - C3DoorOpens
   - C1Control
   - C2Door
-  - C3Walled
-  - C4
+  - C3DoorOpens
 --- !u!1 &349436502
 GameObject:
   m_ObjectHideFlags: 0
