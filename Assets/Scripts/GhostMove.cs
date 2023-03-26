@@ -15,8 +15,8 @@ public class GhostMove : MonoBehaviour
     //public GameObject pacman;
     Transform pacman;
 
-    string[] distances = new string[120];
-    int distIndex = 0;
+    string[] distances = new string[121];
+    int distIndex = 1;
     Stopwatch watchDist = new();
     float currTime = 0f, prevTime = 0f;
     float period = 250f;
@@ -28,6 +28,12 @@ public class GhostMove : MonoBehaviour
         pacman = GameObject.Find("pacman").GetComponent<Transform>();
 
         ghostName = gameObject.name;
+        UnityEngine.Debug.Log(ghostName);
+        distances[0] = ghostName + ": ";
+        for (int i=1; i<121; i++)
+        {
+            distances[i] = "unfilled";
+        }
         watchDist.Start();
     }
 
@@ -37,12 +43,13 @@ public class GhostMove : MonoBehaviour
         if (currTime-prevTime>period)
         {
             prevTime = currTime;
+
             Vector2 d1 = pacman.position;
             Vector2 d2 = transform.position;
             float dist = Vector2.Distance(d2, d1);
             distances[distIndex] = dist.ToString();
             distIndex++;
-            UnityEngine.Debug.Log(ghostName + ": " + dist.ToString());
+            //UnityEngine.Debug.Log(ghostName + ": " + dist.ToString());
         }
     }
 
@@ -71,6 +78,18 @@ public class GhostMove : MonoBehaviour
         if (co.name == "pacman")
         {
             Destroy(co.gameObject);
+
+            //UnityEngine.Debug.Log(distances);
+
+            if (ghostName == "blinky")
+                GM.blinkyDists = string.Join("_", distances);
+            else if (ghostName == "inky")
+                GM.inkyDists = string.Join("_", distances);
+            else if (ghostName == "pinky")
+                GM.pinkyDists = string.Join("_", distances);
+            else if (ghostName == "clyde")
+                GM.clydeDists = string.Join("_", distances);
+
             GM.pacmanDead(); //trigger end
         }
 

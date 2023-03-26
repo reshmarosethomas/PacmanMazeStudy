@@ -19,6 +19,11 @@ public class GameManager : MonoBehaviour
     private int score = 0;
     public TextMeshProUGUI ScoreTxt;
 
+    public string blinkyDists;
+    public string inkyDists;
+    public string pinkyDists;
+    public string clydeDists;
+
     float timeTaken = 0f;
 
     // Start is called before the first frame update
@@ -81,10 +86,19 @@ public class GameManager : MonoBehaviour
             //2. Log Score
             //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "PacdotsCollected", score.ToString());
 
-            //3. Log Trial End
+            //3. Distances from Ghosts over Time
+            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "BlinkyDistances", blinkyDists);
+            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InkyDistances", inkyDists);
+            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "PinkyDistances", pinkyDists);
+            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "ClydeDistances", clydeDists);
+
+
+            //4. No of Times Pacman passed through a door (in C2, C3)
+
+            //5.Log Trial End
             //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + trialName + "_" + tempTrialNum.ToString() + "_" + "TrialEndTime", "End " + System.DateTime.Now);
 
-
+            Debug.Log(blinkyDists);
             Debug.Log("Round Over!");
             SaveGame();
             newTrial();
