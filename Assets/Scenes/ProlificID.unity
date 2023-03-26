@@ -199,7 +199,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -695,6 +695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4be22deeb1d0a42449f5fbf7892df295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _inputField: {fileID: 0}
 --- !u!1 &1567785456
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,7 +914,7 @@ GameObject:
   - component: {fileID: 1875096424}
   - component: {fileID: 1875096423}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: ProlificIDInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

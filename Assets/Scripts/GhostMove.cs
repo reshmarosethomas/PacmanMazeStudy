@@ -12,10 +12,9 @@ public class GhostMove : MonoBehaviour
     GameManager GM;
 
     string ghostName;
-    //public GameObject pacman;
     Transform pacman;
 
-    string[] distances = new string[121];
+    public string[] distances = new string[121];
     int distIndex = 1;
     Stopwatch watchDist = new();
     float currTime = 0f, prevTime = 0f;
@@ -80,15 +79,14 @@ public class GhostMove : MonoBehaviour
             Destroy(co.gameObject);
 
             //UnityEngine.Debug.Log(distances);
-
-            if (ghostName == "blinky")
-                GM.blinkyDists = string.Join("_", distances);
-            else if (ghostName == "inky")
-                GM.inkyDists = string.Join("_", distances);
-            else if (ghostName == "pinky")
-                GM.pinkyDists = string.Join("_", distances);
-            else if (ghostName == "clyde")
-                GM.clydeDists = string.Join("_", distances);
+            //if (ghostName == "blinky")
+            //    GM.blinkyDists = string.Join("_", distances);
+            //if (ghostName == "inky")
+            //    GM.inkyDists = string.Join("_", distances);
+            //if (ghostName == "pinky")
+            //    GM.pinkyDists = string.Join("_", distances);
+            //if (ghostName == "clyde")
+            //    GM.clydeDists = string.Join("_", distances);
 
             GM.pacmanDead(); //trigger end
         }

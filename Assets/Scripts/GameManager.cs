@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public string trialName;
     public List<string> trials;
 
+    string prolificID;
+
     private string sceneName;
     public float trialTimer = 0;
     private bool timerIsActive = true;
@@ -18,6 +20,11 @@ public class GameManager : MonoBehaviour
     bool pacmanEaten = false;
     private int score = 0;
     public TextMeshProUGUI ScoreTxt;
+
+    GameObject blinky;
+    GameObject inky;
+    GameObject pinky;
+    GameObject clyde;
 
     public string blinkyDists;
     public string inkyDists;
@@ -39,6 +46,13 @@ public class GameManager : MonoBehaviour
         trialNum = GlobalControl.Instance.trialNum;
         trialName = GlobalControl.Instance.trialName;
         trials = GlobalControl.Instance.trials;
+
+        prolificID = SaveProlificID.prolificID;
+
+        blinky = GameObject.Find("blinky");
+        inky = GameObject.Find("inky");
+        pinky = GameObject.Find("pinky");
+        clyde = GameObject.Find("clyde");
     }
 
     // Update is called once per frame
@@ -89,12 +103,24 @@ public class GameManager : MonoBehaviour
             int tempTrialNum = trialNum; //so that tinylytics doesn't mess with trialNum
             string tempTrialName = trialName;
 
+            string[] bdists = blinky.GetComponent<GhostMove>().distances;
+            string[] idists = inky.GetComponent<GhostMove>().distances;
+            string[] pdists = pinky.GetComponent<GhostMove>().distances;
+            string[] cdists = clyde.GetComponent<GhostMove>().distances;
+
+            blinkyDists = string.Join("_", bdists);
+            inkyDists = string.Join("_", idists);
+            pinkyDists = string.Join("_", pdists);
+            clydeDists = string.Join("_", cdists);
+
+
             //Log all Tinylytics at Round End
 
             //1. Time Taken for Round
-            if (Timer.currentTime > Timer.inverseTime) timeTaken = Timer.inverseTime;
-            else timeTaken = Timer.currentTime;
-            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "TimeTaken", timeTaken.ToString());
+            //if (Timer.currentTime > Timer.inverseTime) timeTaken = Timer.inverseTime;
+            //else timeTaken = Timer.currentTime;
+            timeTaken = Timer.currentTime;
+            Tinylytics.AnalyticsManager.LogCustomMetric(prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "TimeTaken", timeTaken.ToString());
 
             //2. Log Score
             Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "PacdotsCollected", score.ToString());
@@ -109,7 +135,7 @@ public class GameManager : MonoBehaviour
 
 
             //5. ExitedFullScreen?
-            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InFullScreen", inFullScreen.ToString());
+            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InFullScreen", inFullScreen.ToString());
 
             //6.Log Trial End
             Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + trialName + "_" + tempTrialNum.ToString() + "_" + "TrialEndTime", "End " + System.DateTime.Now);
