@@ -12,6 +12,8 @@ public class OpenDoor : MonoBehaviour
 
     SpriteRenderer doorRenderer;
 
+    public static int doorPasses = 0;
+
     public float sensorStrength = 3;
 
     float distPacman = 0f, distBlinky = 0f, distInky = 0f, distPinky = 0f, distClyde =0f;
@@ -37,13 +39,21 @@ public class OpenDoor : MonoBehaviour
         distPinky = Vector2.Distance(pinkyPos.position, transform.position);
         distClyde = Vector2.Distance(clydePos.position, transform.position);
 
-        if (distPacman < sensorStrength || distBlinky < sensorStrength || distInky < sensorStrength || distPinky < sensorStrength || distClyde < sensorStrength)
+        if (distBlinky < sensorStrength || distInky < sensorStrength || distPinky < sensorStrength || distClyde < sensorStrength)
         {
-            Debug.Log("DistAlert");
+            //Debug.Log("DistAlert");
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 0f;
             doorRenderer.color = tempDoorColor;
-        } else
+
+        } else if (distPacman < sensorStrength)
+        {
+            Color tempDoorColor = doorRenderer.color;
+            tempDoorColor.a = 0f;
+            doorRenderer.color = tempDoorColor;
+
+        }
+        else
         {
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 1f;
