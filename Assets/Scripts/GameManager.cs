@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
     GameObject clyde;
 
     public GameObject[] doors;
+    string[] doorData = new string[20];
+    string fullDoorData;
 
     public string blinkyDists;
     public string inkyDists;
@@ -117,16 +119,6 @@ public class GameManager : MonoBehaviour
             pinkyDists = string.Join("_", pdists);
             clydeDists = string.Join("_", cdists);
 
-            if (trialName == "C3DoorOpens")
-            {
-                for (int i = 0; i < 20; i++)
-                {
-                    int a = doors[i].GetComponent<OpenDoor>().door_open_num;
-                    //string str = doors[i].name + a.ToString();
-                    Debug.Log("insideForLoop: " + i.ToString() + " Num: " + a.ToString());
-                }
-            }
-            
 
             //Log all Tinylytics at Round End
 
@@ -146,11 +138,21 @@ public class GameManager : MonoBehaviour
             Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "ClydeDistances", clydeDists);
 
             //4. No of Times Pacman passed through a door (in C2, C3)
+            
             if (trialName == "C3DoorOpens")
             {
-                //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "DoorOpenNum", door_open_num);
-            }
+                for (int i = 0; i < 20; i++)
+                {
+                    int a = doors[i].GetComponent<OpenDoor>().door_open_num;
 
+                    //Debug.Log("insideForLoop: " + i.ToString() + " Num: " + a.ToString());
+                    doorData[i] = "DoorNum:" + i.ToString() + " NumOfPasses:" + a.ToString();
+                }
+
+                fullDoorData = string.Join("_", doorData);
+                Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "DoorPasses", fullDoorData);
+            }
+            
 
             //5. ExitedFullScreen?
             Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InFullScreen", inFullScreen.ToString());

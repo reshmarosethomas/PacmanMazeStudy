@@ -27,7 +27,7 @@ public class GhostMove : MonoBehaviour
         pacman = GameObject.Find("pacman").GetComponent<Transform>();
 
         ghostName = gameObject.name;
-        UnityEngine.Debug.Log(ghostName);
+        //UnityEngine.Debug.Log(ghostName);
         distances[0] = ghostName + ": ";
         for (int i=1; i<121; i++)
         {
@@ -77,7 +77,6 @@ public class GhostMove : MonoBehaviour
         if (co.name == "pacman")
         {
             Destroy(co.gameObject);
-
             //UnityEngine.Debug.Log(distances);
             //if (ghostName == "blinky")
             //    GM.blinkyDists = string.Join("_", distances);
@@ -88,6 +87,7 @@ public class GhostMove : MonoBehaviour
             //if (ghostName == "clyde")
             //    GM.clydeDists = string.Join("_", distances);
 
+            UnityEngine.Debug.Log("InsidePacmanEateninGhostMove");
             GM.pacmanDead(); //trigger end
         }
 
