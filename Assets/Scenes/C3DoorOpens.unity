@@ -1947,7 +1947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &70922948
 GameObject:
@@ -8126,7 +8126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &408548250
 GameObject:
@@ -16021,7 +16021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &706267061
 GameObject:
@@ -16346,7 +16346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &726986566
 GameObject:
@@ -16950,7 +16950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &769737215
 GameObject:
@@ -17331,7 +17331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &783014567
 GameObject:
@@ -18090,7 +18090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &821880393
 GameObject:
@@ -23133,7 +23133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1023873287
 GameObject:
@@ -23179,7 +23179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1029513569
 GameObject:
@@ -24954,7 +24954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1104852806
 GameObject:
@@ -25000,7 +25000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1107247111
 GameObject:
@@ -31906,7 +31906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1352150825
 GameObject:
@@ -34693,7 +34693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1429236739
 GameObject:
@@ -37063,7 +37063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1522421683
 GameObject:
@@ -37760,7 +37760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1552198524
 GameObject:
@@ -38132,7 +38132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1570190038
 GameObject:
@@ -41458,7 +41458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1746783063
 GameObject:
@@ -42056,7 +42056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1772343366
 GameObject:
@@ -43883,7 +43883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &1885873106
 GameObject:
@@ -47854,7 +47854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ca44358ad4a4294b719c4c78e99767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensorStrength: 2.5
+  sensorStrength: 1.55
   door_open_num: 0
 --- !u!1 &2081539562
 GameObject:
