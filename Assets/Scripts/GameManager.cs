@@ -26,6 +26,13 @@ public class GameManager : MonoBehaviour
 
     float timeTaken = 0f;
 
+    public int inFullScreen;
+
+    void Awake()
+    {
+        inFullScreen = 1;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +48,12 @@ public class GameManager : MonoBehaviour
         {
             trialTimer += Time.deltaTime;
         }
+
+        if(Screen.fullScreen==false)
+        {
+            inFullScreen = 0;
+        }
+
     }
 
 
@@ -81,22 +94,25 @@ public class GameManager : MonoBehaviour
             //1. Time Taken for Round
             if (Timer.currentTime > Timer.inverseTime) timeTaken = Timer.inverseTime;
             else timeTaken = Timer.currentTime;
-            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "TimeTaken", timeTaken.ToString());
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "TimeTaken", timeTaken.ToString());
 
             //2. Log Score
-            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "PacdotsCollected", score.ToString());
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "PacdotsCollected", score.ToString());
 
             //3. Distances from Ghosts over Time
-            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "BlinkyDistances", blinkyDists);
-            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InkyDistances", inkyDists);
-            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "PinkyDistances", pinkyDists);
-            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "ClydeDistances", clydeDists);
-
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "BlinkyDistances", blinkyDists);
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InkyDistances", inkyDists);
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "PinkyDistances", pinkyDists);
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "ClydeDistances", clydeDists);
 
             //4. No of Times Pacman passed through a door (in C2, C3)
 
-            //5.Log Trial End
-            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + trialName + "_" + tempTrialNum.ToString() + "_" + "TrialEndTime", "End " + System.DateTime.Now);
+
+            //5. ExitedFullScreen?
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InFullScreen", inFullScreen.ToString());
+
+            //6.Log Trial End
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + trialName + "_" + tempTrialNum.ToString() + "_" + "TrialEndTime", "End " + System.DateTime.Now);
 
             Debug.Log(blinkyDists);
             Debug.Log("Round Over!");

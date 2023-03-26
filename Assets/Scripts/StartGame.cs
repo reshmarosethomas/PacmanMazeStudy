@@ -44,7 +44,7 @@ public class StartGame : MonoBehaviour
         trialName = GlobalControl.Instance.trials[trialNum];
 
         int actualTrialNum = trialNum + 1;
-        //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + trialName + "_" + actualTrialNum.ToString() + "_" + "TrialStartTime", "Start " + System.DateTime.Now);
+        Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + trialName + "_" + actualTrialNum.ToString() + "_" + "TrialStartTime", "Start " + System.DateTime.Now);
 
         SceneManager.LoadScene(trialName);
 

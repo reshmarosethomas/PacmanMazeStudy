@@ -30,7 +30,8 @@ public class SaveProlificID : MonoBehaviour
         //prolificID = _inputField.text;
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            //Tinylytics.AnalyticsManager.LogCustomMetric("Prolific ID", prolificID);
+            Tinylytics.AnalyticsManager.LogCustomMetric("Prolific ID", prolificID);
+            Screen.fullScreen = true;
             Start_Opening();
         }
     }
