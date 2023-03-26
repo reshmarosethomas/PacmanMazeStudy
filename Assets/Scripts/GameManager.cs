@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour
     GameObject pinky;
     GameObject clyde;
 
+    public GameObject[] doors;
+
     public string blinkyDists;
     public string inkyDists;
     public string pinkyDists;
@@ -53,6 +55,8 @@ public class GameManager : MonoBehaviour
         inky = GameObject.Find("inky");
         pinky = GameObject.Find("pinky");
         clyde = GameObject.Find("clyde");
+
+        
     }
 
     // Update is called once per frame
@@ -113,6 +117,16 @@ public class GameManager : MonoBehaviour
             pinkyDists = string.Join("_", pdists);
             clydeDists = string.Join("_", cdists);
 
+            if (trialName == "C3DoorOpens")
+            {
+                for (int i = 0; i < 20; i++)
+                {
+                    int a = doors[i].GetComponent<OpenDoor>().door_open_num;
+                    //string str = doors[i].name + a.ToString();
+                    Debug.Log("insideForLoop: " + i.ToString() + " Num: " + a.ToString());
+                }
+            }
+            
 
             //Log all Tinylytics at Round End
 
@@ -132,16 +146,19 @@ public class GameManager : MonoBehaviour
             Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "ClydeDistances", clydeDists);
 
             //4. No of Times Pacman passed through a door (in C2, C3)
-            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "DoorOpenNum", door_open_num);
+            if (trialName == "C3DoorOpens")
+            {
+                //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "DoorOpenNum", door_open_num);
+            }
 
 
             //5. ExitedFullScreen?
-            //Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InFullScreen", inFullScreen.ToString());
+            Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + tempTrialName + "_" + tempTrialNum.ToString() + "_" + "InFullScreen", inFullScreen.ToString());
 
             //6.Log Trial End
             Tinylytics.AnalyticsManager.LogCustomMetric(SaveProlificID.prolificID + "_" + trialName + "_" + tempTrialNum.ToString() + "_" + "TrialEndTime", "End " + System.DateTime.Now);
 
-            Debug.Log(blinkyDists);
+            //Debug.Log(blinkyDists);
             Debug.Log("Round Over!");
             SaveGame();
             newTrial();

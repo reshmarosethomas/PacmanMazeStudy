@@ -15,7 +15,8 @@ public class OpenDoor : MonoBehaviour
     public float sensorStrength = 1;
 
     float distPacman = 0f, distBlinky = 0f, distInky = 0f, distPinky = 0f, distClyde =0f;
-    int door_open_num = 0;
+    public int door_open_num = 0;
+    bool isPacmanPassingDoor = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,7 +41,7 @@ public class OpenDoor : MonoBehaviour
 
         if (distBlinky < sensorStrength || distInky < sensorStrength || distPinky < sensorStrength || distClyde < sensorStrength)
         {
-            Debug.Log("DistAlert");
+            //Debug.Log("DistAlert");
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 0f;
             doorRenderer.color = tempDoorColor;
@@ -53,17 +54,25 @@ public class OpenDoor : MonoBehaviour
 
         if (distPacman < sensorStrength)
         {
-            Debug.Log("DistAlert");
+            //Debug.Log("DistAlert");
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 0f;
             doorRenderer.color = tempDoorColor;
-            door_open_num += 1;
+
+            //if (isPacmanPassingDoor == false && distPacman==0)
+            if (!isPacmanPassingDoor)
+            {
+                door_open_num += 1;
+                isPacmanPassingDoor = true;
+            }
+            
         }
         else
         {
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 1f;
             doorRenderer.color = tempDoorColor;
+            isPacmanPassingDoor = false;
         }
 
     }

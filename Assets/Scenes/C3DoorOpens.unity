@@ -1948,6 +1948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &70922948
 GameObject:
   m_ObjectHideFlags: 0
@@ -8126,6 +8127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &408548250
 GameObject:
   m_ObjectHideFlags: 0
@@ -12249,6 +12251,27 @@ MonoBehaviour:
   trials: []
   trialTimer: 0
   ScoreTxt: {fileID: 567776986}
+  doors:
+  - {fileID: 1563376298}
+  - {fileID: 1548748593}
+  - {fileID: 817915101}
+  - {fileID: 1885620739}
+  - {fileID: 1516024464}
+  - {fileID: 780902060}
+  - {fileID: 66731236}
+  - {fileID: 406331706}
+  - {fileID: 761883952}
+  - {fileID: 1104852806}
+  - {fileID: 1096355022}
+  - {fileID: 723654409}
+  - {fileID: 1428553007}
+  - {fileID: 700127266}
+  - {fileID: 1767339733}
+  - {fileID: 1746198697}
+  - {fileID: 1023873287}
+  - {fileID: 1020952976}
+  - {fileID: 2076093546}
+  - {fileID: 1347162542}
   blinkyDists: 
   inkyDists: 
   pinkyDists: 
@@ -15999,6 +16022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &706267061
 GameObject:
   m_ObjectHideFlags: 0
@@ -16323,6 +16347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &726986566
 GameObject:
   m_ObjectHideFlags: 0
@@ -16926,6 +16951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &769737215
 GameObject:
   m_ObjectHideFlags: 0
@@ -17306,6 +17332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &783014567
 GameObject:
   m_ObjectHideFlags: 0
@@ -18064,6 +18091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &821880393
 GameObject:
   m_ObjectHideFlags: 0
@@ -23106,6 +23134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1023873287
 GameObject:
   m_ObjectHideFlags: 0
@@ -23151,6 +23180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1029513569
 GameObject:
   m_ObjectHideFlags: 0
@@ -24925,6 +24955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1104852806
 GameObject:
   m_ObjectHideFlags: 0
@@ -24970,6 +25001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1107247111
 GameObject:
   m_ObjectHideFlags: 0
@@ -31875,6 +31907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1352150825
 GameObject:
   m_ObjectHideFlags: 0
@@ -34661,6 +34694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1429236739
 GameObject:
   m_ObjectHideFlags: 0
@@ -37030,6 +37064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1522421683
 GameObject:
   m_ObjectHideFlags: 0
@@ -37726,6 +37761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1552198524
 GameObject:
   m_ObjectHideFlags: 0
@@ -38097,6 +38133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1570190038
 GameObject:
   m_ObjectHideFlags: 0
@@ -41422,6 +41459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1746783063
 GameObject:
   m_ObjectHideFlags: 0
@@ -42019,6 +42057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1772343366
 GameObject:
   m_ObjectHideFlags: 0
@@ -43845,6 +43884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &1885873106
 GameObject:
   m_ObjectHideFlags: 0
@@ -47815,6 +47855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensorStrength: 2.5
+  door_open_num: 0
 --- !u!1 &2081539562
 GameObject:
   m_ObjectHideFlags: 0
