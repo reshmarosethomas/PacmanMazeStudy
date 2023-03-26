@@ -171,16 +171,18 @@ MonoBehaviour:
   trialName: 
   trials:
   - C1Control
-  - C2Door
   - C3DoorOpens
   - C1Control
-  - C2Door
   - C3DoorOpens
   - C1Control
-  - C2Door
   - C3DoorOpens
   - C1Control
-  - C2Door
+  - C3DoorOpens
+  - C1Control
+  - C3DoorOpens
+  - C1Control
+  - C3DoorOpens
+  - C1Control
   - C3DoorOpens
 --- !u!1 &46913596
 GameObject:
