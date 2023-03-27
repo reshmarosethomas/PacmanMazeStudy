@@ -11,6 +11,7 @@ public class OpenDoor : MonoBehaviour
     Transform clydePos;
 
     SpriteRenderer doorRenderer;
+    //SpriteRenderer knobRenderer;
 
     public float sensorStrength = 1;
 
@@ -28,6 +29,7 @@ public class OpenDoor : MonoBehaviour
         clydePos = GameObject.Find("clyde").GetComponent<Transform>();
 
         doorRenderer = transform.parent.gameObject.GetComponent<SpriteRenderer>();
+        //knobRenderer[] = transform.gameObject.GetComponentsInChildren<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -45,11 +47,19 @@ public class OpenDoor : MonoBehaviour
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 0f;
             doorRenderer.color = tempDoorColor;
+            //foreach (SpriteRenderer childRenderer in knobRenderer)
+            //{
+            //    knobRenderer.color = tempDoorColor;
+            //}
         } else
         {
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 1f;
             doorRenderer.color = tempDoorColor;
+            //foreach (SpriteRenderer childRenderer in knobRenderer)
+            //{
+            //    knobRenderer.color = tempDoorColor;
+            //}
         }
 
         if (distPacman < sensorStrength)
@@ -58,6 +68,11 @@ public class OpenDoor : MonoBehaviour
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 0f;
             doorRenderer.color = tempDoorColor;
+            //foreach (SpriteRenderer childRenderer in knobRenderer)
+            //{
+            //    knobRenderer.color = tempDoorColor;
+            //}
+
 
             //if (isPacmanPassingDoor == false && distPacman==0)
             if (!isPacmanPassingDoor)
@@ -65,13 +80,17 @@ public class OpenDoor : MonoBehaviour
                 door_open_num += 1;
                 isPacmanPassingDoor = true;
             }
-            
+
         }
         else
         {
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 1f;
             doorRenderer.color = tempDoorColor;
+            //foreach (SpriteRenderer childRenderer in knobRenderer)
+            //{
+            //    knobRenderer.color = tempDoorColor;
+            //}
             isPacmanPassingDoor = false;
         }
 
