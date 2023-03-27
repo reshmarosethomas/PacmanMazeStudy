@@ -42,9 +42,9 @@ public class OpenDoor : MonoBehaviour
         distPinky = Vector2.Distance(pinkyPos.position, transform.position);
         distClyde = Vector2.Distance(clydePos.position, transform.position);
 
-        if (distBlinky < sensorStrength || distInky < sensorStrength || distPinky < sensorStrength || distClyde < sensorStrength)
+        if (distPacman < sensorStrength || distBlinky < sensorStrength || distInky < sensorStrength || distPinky < sensorStrength || distClyde < sensorStrength)
         {
-            Debug.Log("GhostDistAlert");
+            
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 0f;
             doorRenderer.color = tempDoorColor;
@@ -56,47 +56,20 @@ public class OpenDoor : MonoBehaviour
                 childRenderer.color = tempKnobColor;
             }
 
-        } else
-        {
-            Debug.Log("GhostAway");
-            Color tempDoorColor = doorRenderer.color;
-            tempDoorColor.a = 1f;
-            doorRenderer.color = tempDoorColor;
-
-            foreach (SpriteRenderer childRenderer in knobRenderer)
-            {
-                Color tempKnobColor = childRenderer.color;
-                tempKnobColor.a = 1f;
-                childRenderer.color = tempKnobColor;
-            }
-           
-        }
-
-        if (distPacman < sensorStrength)
-        {
-            //Debug.Log("DistAlert");
-            Color tempDoorColor = doorRenderer.color;
-            tempDoorColor.a = 0f;
-            doorRenderer.color = tempDoorColor;
-
-            foreach (SpriteRenderer childRenderer in knobRenderer)
-            {
-                Color tempKnobColor = childRenderer.color;
-                tempKnobColor.a = 0f;
-                childRenderer.color = tempKnobColor;
-            }
-
-
-            //if (isPacmanPassingDoor == false && distPacman==0)
-            if (!isPacmanPassingDoor)
+            if (distPacman < sensorStrength && !isPacmanPassingDoor)
             {
                 door_open_num += 1;
                 isPacmanPassingDoor = true;
             }
 
+            if (distPacman >= sensorStrength)
+                isPacmanPassingDoor = false;
+
         }
+
         else
         {
+            
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 1f;
             doorRenderer.color = tempDoorColor;
@@ -109,7 +82,9 @@ public class OpenDoor : MonoBehaviour
             }
 
             isPacmanPassingDoor = false;
+
         }
 
+        
     }
 }
