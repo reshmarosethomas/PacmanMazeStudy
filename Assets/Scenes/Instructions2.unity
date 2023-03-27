@@ -261,8 +261,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46913596}
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
-  m_LocalPosition: {x: -323.5, y: -22.8, z: -17.470959}
-  m_LocalScale: {x: 14.124352, y: 14.124352, z: 0}
+  m_LocalPosition: {x: -295, y: -32, z: -17.470959}
+  m_LocalScale: {x: 13.250479, y: 13.250479, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1669085409}
@@ -348,8 +348,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172349682}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.2453, y: 15.739761, z: -17.470959}
-  m_LocalScale: {x: 18.507772, y: 18.507772, z: 0}
+  m_LocalPosition: {x: -17.887028, y: -8.103621, z: -17.470959}
+  m_LocalScale: {x: 15.890403, y: 15.890403, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 509401665}
@@ -635,8 +635,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 371591882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -62.358276, y: 11.843384, z: -17.470959}
-  m_LocalScale: {x: 13.637306, y: 13.637306, z: 0}
+  m_LocalPosition: {x: -55, y: -12, z: -17.470959}
+  m_LocalScale: {x: 11.708718, y: 11.708718, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 509401665}
@@ -881,8 +881,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756912746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -217, y: 72.8, z: -17.470959}
-  m_LocalScale: {x: 6.579999, y: 6.579999, z: 0}
+  m_LocalPosition: {x: -253.3, y: 66.9, z: -17.470959}
+  m_LocalScale: {x: 4.718912, y: 4.718912, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 509401665}
@@ -1386,8 +1386,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334236608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.785797, y: 12.81749, z: -17.470959}
-  m_LocalScale: {x: 14.611399, y: 14.611399, z: 0}
+  m_LocalPosition: {x: 56.144073, y: -11.025892, z: -17.470959}
+  m_LocalScale: {x: 12.545054, y: 12.545054, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 509401665}
@@ -1650,8 +1650,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409736685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.770233, y: 13.79158, z: -17.470959}
-  m_LocalScale: {x: 14.611399, y: 14.611399, z: 0}
+  m_LocalPosition: {x: 19.128506, y: -10.051802, z: -17.470959}
+  m_LocalScale: {x: 12.545054, y: 12.545054, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 509401665}
@@ -1715,11 +1715,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You are        Your job is to eat as many dots         as possible before
-    time runs out.\nBEWARE! Avoid getting caught by Inky, Blinky, Pinky or Clyde\n\n\nor
-    you will die and lose all of your dots.\n\nUse the arrow keys to move PacMan
-    around the maze. \n\nDoors         will open in order for you to pass through
-    them."
+  m_text: "You are       . Your job is to eat as many dots         as possible before
+    time runs out.\n\nBEWARE! Avoid getting caught by Inky, Blinky, Pinky or Clyde
+    or you will die!\n\n\nUse the arrow keys to move PacMan around the maze. \n\nDoors      
+    will open for you to pass through them."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1758,7 +1757,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 8
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -1913,7 +1912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645493001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.3, y: 64.8, z: -17.470959}
+  m_LocalPosition: {x: 61.6, y: 64.8, z: -17.470959}
   m_LocalScale: {x: 19.481865, y: 19.481865, z: 0.97409326}
   m_ConstrainProportionsScale: 0
   m_Children:
