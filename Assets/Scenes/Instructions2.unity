@@ -261,7 +261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46913596}
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
-  m_LocalPosition: {x: -295, y: -32, z: -17.470959}
+  m_LocalPosition: {x: -284, y: -17.8, z: -17.470959}
   m_LocalScale: {x: 13.250479, y: 13.250479, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -881,7 +881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756912746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -253.3, y: 66.9, z: -17.470959}
+  m_LocalPosition: {x: -226.8, y: 64.9, z: -17.470959}
   m_LocalScale: {x: 4.718912, y: 4.718912, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You are       . Your job is to eat as many dots         as possible before
+  m_text: "You are        Your job is to eat as many dots         as possible before
     time runs out.\n\nBEWARE! Avoid getting caught by Inky, Blinky, Pinky or Clyde
     or you will die!\n\n\nUse the arrow keys to move PacMan around the maze. \n\nDoors      
     will open for you to pass through them."
@@ -1912,7 +1912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645493001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 61.6, y: 64.8, z: -17.470959}
+  m_LocalPosition: {x: 54.1, y: 63.6, z: -17.470959}
   m_LocalScale: {x: 19.481865, y: 19.481865, z: 0.97409326}
   m_ConstrainProportionsScale: 0
   m_Children:
