@@ -11,9 +11,9 @@ public class OpenDoor : MonoBehaviour
     Transform clydePos;
 
     SpriteRenderer doorRenderer;
-    //SpriteRenderer knobRenderer;
+    public SpriteRenderer[] knobRenderer;
 
-    public float sensorStrength = 1;
+    float sensorStrength = 1.5f;
 
     float distPacman = 0f, distBlinky = 0f, distInky = 0f, distPinky = 0f, distClyde =0f;
     public int door_open_num = 0;
@@ -29,7 +29,8 @@ public class OpenDoor : MonoBehaviour
         clydePos = GameObject.Find("clyde").GetComponent<Transform>();
 
         doorRenderer = transform.parent.gameObject.GetComponent<SpriteRenderer>();
-        //knobRenderer[] = transform.gameObject.GetComponentsInChildren<SpriteRenderer>();
+        knobRenderer = transform.parent.GetComponentsInChildren<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -43,23 +44,32 @@ public class OpenDoor : MonoBehaviour
 
         if (distBlinky < sensorStrength || distInky < sensorStrength || distPinky < sensorStrength || distClyde < sensorStrength)
         {
-            //Debug.Log("DistAlert");
+            Debug.Log("GhostDistAlert");
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 0f;
             doorRenderer.color = tempDoorColor;
-            //foreach (SpriteRenderer childRenderer in knobRenderer)
-            //{
-            //    knobRenderer.color = tempDoorColor;
-            //}
+
+            foreach (SpriteRenderer childRenderer in knobRenderer)
+            {
+                Color tempKnobColor = childRenderer.color;
+                tempKnobColor.a = 0f;
+                childRenderer.color = tempKnobColor;
+            }
+
         } else
         {
+            Debug.Log("GhostAway");
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 1f;
             doorRenderer.color = tempDoorColor;
-            //foreach (SpriteRenderer childRenderer in knobRenderer)
-            //{
-            //    knobRenderer.color = tempDoorColor;
-            //}
+
+            foreach (SpriteRenderer childRenderer in knobRenderer)
+            {
+                Color tempKnobColor = childRenderer.color;
+                tempKnobColor.a = 1f;
+                childRenderer.color = tempKnobColor;
+            }
+           
         }
 
         if (distPacman < sensorStrength)
@@ -68,10 +78,13 @@ public class OpenDoor : MonoBehaviour
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 0f;
             doorRenderer.color = tempDoorColor;
-            //foreach (SpriteRenderer childRenderer in knobRenderer)
-            //{
-            //    knobRenderer.color = tempDoorColor;
-            //}
+
+            foreach (SpriteRenderer childRenderer in knobRenderer)
+            {
+                Color tempKnobColor = childRenderer.color;
+                tempKnobColor.a = 0f;
+                childRenderer.color = tempKnobColor;
+            }
 
 
             //if (isPacmanPassingDoor == false && distPacman==0)
@@ -87,10 +100,14 @@ public class OpenDoor : MonoBehaviour
             Color tempDoorColor = doorRenderer.color;
             tempDoorColor.a = 1f;
             doorRenderer.color = tempDoorColor;
-            //foreach (SpriteRenderer childRenderer in knobRenderer)
-            //{
-            //    knobRenderer.color = tempDoorColor;
-            //}
+
+            foreach (SpriteRenderer childRenderer in knobRenderer)
+            {
+                Color tempKnobColor = childRenderer.color;
+                tempKnobColor.a = 1f;
+                childRenderer.color = tempKnobColor;
+            }
+
             isPacmanPassingDoor = false;
         }
 
