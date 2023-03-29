@@ -139,7 +139,7 @@ public class GameManager : MonoBehaviour
 
             //4. No of Times Pacman passed through a door (in C2, C3)
             
-            if (trialName == "C3DoorOpens")
+            if (trialName == "C3DoorOpens" || trialName == "C2Door")
             {
                 for (int i = 0; i < 20; i++)
                 {
